@@ -265,6 +265,71 @@ body{
     footer .linha2 a:hover{
         color: var(--cinza-hover);
     }
+    
+@media only screen and (max-width: 600px){
+    /*menu*/
+    #principal{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    #principal button{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    /*section*/
+
+    section h1{
+        font-size: 38px;
+    }
+
+    section h2{
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form{
+        width: 95%;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .checkbox-itens label{
+        font-size: 17px;
+    }
+
+    input[type="submit"]{
+        margin-left: 1%;
+        font-size: 32px;
+        width: 400px;
+    }
+
+    /* footer*/
+
+    footer .linha1{
+        flex-direction: column;   
+    }
+
+    .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
 
 
 
